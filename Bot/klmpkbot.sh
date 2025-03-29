@@ -18,7 +18,7 @@ mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 cd /root
-wget -O regis.zip https://raw.githubusercontent.com/Andyyuda/P/main/Bot/regis.zip
+wget -O regis.zip https://raw.githubusercontent.com/kanghory/scvpn/main/Bot/regis.zip
 7z x regis.zip
 rm -rf regis.zip
 pip3 install -r regis/requirements.txt
@@ -32,7 +32,7 @@ echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━�
 echo -e "${grenbo}Tutorial Creat Bot and ID Telegram${NC}"
 echo -e "${grenbo}[*] Creat Bot and Token Bot : @BotFather${NC}"
 echo -e "${grenbo}[*] Info Id Telegram : @MissRose_bot , perintah /info${NC}"
-echo -e "${grenbo}[*] Bot By AndyYuda KLMPK PROJECT${NC}"
+echo -e "${grenbo}[*] Bot By kanghoryVPN PROJECT${NC}"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 read -e -p "[*] Input your Bot Token : " bottoken
 read -e -p "[*] Input Your Id Telegram :" admin
@@ -54,8 +54,8 @@ chmod +x /usr/bin/andy
 # Create the regis service
 cat >/etc/systemd/system/regis.service <<EOF
 [Unit]
-Description=KLMPK BOT 
-Documentation=KLMPKVPN
+Description=kanghoryBOT 
+Documentation=kanghoryVPN
 After=syslog.target network-online.target
 
 [Service]
